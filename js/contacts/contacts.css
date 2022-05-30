@@ -1,0 +1,82 @@
+.contacts{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.contacts__form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contacts__form input{
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 5px 10px rgb(44, 43, 48);;
+}
+
+.contacts__button{
+    margin-bottom: 20px;
+    border: 0;
+    background-color: rgb(133, 133, 104);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.contacts__button:hover{
+    background-color: rgb(67, 36, 163);
+    box-shadow: 0 5px 10px rgb(44, 43, 48);
+}
+.contacts__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(44, 43, 48);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(202, 195, 216);
+}
+.list__name{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.list__btn-del{
+    width: 250px;
+    padding: 5px;
+    border: 0;
+    background-color: rgb(133, 133, 104);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    margin: 0px auto;  
+}
+
+.list__btn-del:hover{
+    background-color: rgb(67, 36, 163);
+    box-shadow: 0 5px 10px rgb(44, 43, 48);
+}
+
+.list__name,
+.list__email,
+.list__address,
+.list__phone{
+    margin-bottom: 8px;
+    color: rgb(67, 36, 163);
+}
